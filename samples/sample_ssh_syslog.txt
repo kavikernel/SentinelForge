@@ -1,0 +1,8 @@
+2026-11-21T01:22:10Z srv-auth-01 sshd[4412]: Failed password for invalid user oracle from 91.240.118.14 port 22 ssh2
+2026-11-21T01:22:13Z srv-auth-01 sshd[4412]: Failed password for invalid user admin from 91.240.118.14 port 22 ssh2
+2026-11-21T01:22:16Z srv-auth-01 sshd[4412]: Failed password for invalid user deploy from 91.240.118.14 port 22 ssh2
+2026-11-21T01:22:19Z srv-auth-01 sshd[4412]: Failed password for root from 91.240.118.14 port 22 ssh2
+2026-11-21T01:22:22Z srv-auth-01 sshd[4412]: Failed password for root from 91.240.118.14 port 22 ssh2
+2026-11-21T01:24:05Z srv-auth-01 sudo: www-data : user NOT in sudoers ; COMMAND=/bin/chmod +s /bin/bash from 91.240.118.14
+2026-11-21T09:30:11Z srv-web-02 nginx: Accepted https request for alice.chen from 10.0.2.15 port 443
+2026-11-21T09:35:40Z srv-db-01 postgres: Authorized backup connection for svc-backup from 172.16.4.19 port 5432

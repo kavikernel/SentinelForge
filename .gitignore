@@ -1,0 +1,18 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+# Local runtime data
+data/
+storage/
+*.db
+*.sqlite
+*.sqlite3
+
+# Local environment and editor files
+.vscode/
+.aistudio/

@@ -1,0 +1,17 @@
+services:
+  sentinelforge:
+    build: .
+    container_name: sentinelforge-soc
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - DATA_DIR=/app/data
+      - SESSION_SECRET=${SESSION_SECRET:-}
+    volumes:
+      - sentinelforge_data:/app/data
+    restart: unless-stopped
+
+volumes:
+  sentinelforge_data:

@@ -1,0 +1,8 @@
+{
+  "name": "Remix SENTINELFORGE",
+  "description": "AI-Powered Threat Detection and Security Analytics Platform featuring hybrid Isolation Forest + Logistic Regression ML, MITRE ATT\u0026CK mapping, attack correlation, digital forensics, RBAC, and audit logging.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
